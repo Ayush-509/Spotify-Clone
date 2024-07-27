@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Music Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+</head>
+<body>
+    <div class="main">
+        <div class="left">
+            <div class="up">
+                <ul>
+                    <li class = "gap">
+                        <img class="logo" src="Assets/svg/logo.svg" alt="logo">
+                        <img class = "close" src="Assets/svg/close.svg" alt="close">
+                    </li>
+                    <li><img src="Assets/svg/home.svg" alt="home">Home</li>
+                    <li class="search"><img src="Assets/svg/search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            
+            <div class="down">
+                <div class="playlist">
+                    <img src="Assets/svg/playlist.svg" alt="playlist">
+                    <div>Your Library</div>
+                </div>
+
+                <div class="scroll">
+                </div>
+
+                <div class="about">        
+                    <a href="https://www.spotify.com/in-en/legal/">Legal</a>
+                    <a href="https://www.spotify.com/in-en/safetyandprivacy/">Safety & Privacy Center</a>
+                    <a href="https://www.spotify.com/in-en/legal/privacy-policy/">Privacy Policy</a>
+                    <a href="https://www.spotify.com/in-en/legal/cookies-policy/">Cookies</a>
+                    <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">About Ads</a>
+                    <a href="https://www.spotify.com/in-en/accessibility/">Accessibility</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="right">
+            <div class="header">
+                
+                <div class="navigation">
+                    <div class="hamburger">
+                        <img src="Assets/svg/hamburger.svg" alt="hamburger">
+                    </div>
+
+                    <div class="arrows">
+                        <img class = "leftarr" src="Assets/svg/left.svg" alt="left">
+                        <img class = "rightarr" src="Assets/svg/right.svg" alt="right">
+                    </div>
+                </div>
+                
+                <div class="button">
+                    <button class = "signup">Sign up</button>
+                    <button class = "login">Log in</button>
+                </div>
+            </div>
+
+            <div class="spotify">
+
+            </div>
+                
+                
+            <div class="footer">
+                <a href="#"><img src="Assets/svg/instagram.svg" alt="insta"></a>
+                <a href="#"><img src="Assets/svg/facebook.svg" alt="insta"></a>
+                <a href="#"><img src="Assets/svg/snapchat.svg" alt="insta"></a>
+                <div>© 2024 Ayush Pandey</div>
+            </div>
+        </div>
+
+        <div class="playbox">
+            <div class="songphoto">
+                <img src="Assets/svg/logo.svg" alt="logo">
+            </div>
+
+            <div class="song">
+                <div class="songinfo">
+                    <div class="firstline">Song Name</div>
+                    <div class="secline">Artist</div>
+                </div>
+    
+                <div class="controls">
+                    <div class="songtime1">
+                        00:00
+                    </div>
+    
+                    <div class="playnext">
+                        <button id="prev"><img src="Assets/svg/prev.svg" alt="prev"></button>
+                        <button id="play"><img src="Assets/svg/play.svg" alt="play"></button>
+                        <button id="next"><img src="Assets/svg/next.svg" alt="next"></button>
+                    </div>
+                    
+                    <div class="songtime2">
+                        00:00
+                    </div>
+    
+                    <div class="seek">
+                        <div class="done">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="undone"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="volume">
+                <div class="vologo"><img src="Assets/svg/volume.svg" alt="volume"></div>
+                <input style="width: 100%;" type="range" class="vol" value="100">
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
